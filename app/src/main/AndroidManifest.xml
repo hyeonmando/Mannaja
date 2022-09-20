@@ -22,7 +22,7 @@
         android:usesCleartextTraffic="true"
         android:networkSecurityConfig="@xml/network_security_config">
         <activity
-            android:name=".Key_MainActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,7 +30,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <meta-data android:name="com.example.mannaja" android:value="Dk8Qyx1gETcB1fwix/42prBLpc8="/>
+        <meta-data android:name="com.example.mannaja" android:value="6ac2f886d80e52c9f857b1751a184bd6"/>
     </application>
 
 </manifest>
