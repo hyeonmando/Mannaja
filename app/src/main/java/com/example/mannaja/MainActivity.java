@@ -2,6 +2,7 @@ package com.example.mannaja;
 
 import android.os.Bundle;
 import android.view.ViewGroup;
+import android.widget.RelativeLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -17,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         MapView mapView = new MapView(this);
 
-        ViewGroup mapViewContainer = (ViewGroup) findViewById(R.id.map_view);
+        RelativeLayout mapViewContainer=(RelativeLayout) findViewById(R.id.MapView);
         mapViewContainer.addView(mapView);
     }
 
